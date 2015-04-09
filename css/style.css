@@ -1,0 +1,272 @@
+html {
+  font-family: Roboto, arial, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+h1, p {
+  font-weight: normal;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.container {
+  max-width: 900px;
+  margin:auto;
+  padding: 0 20px;
+}
+
+.orange {
+  background: #fd8200; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fd8200 0%, #e76f01 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fd8200), color-stop(100%,#e76f01)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #fd8200 0%,#e76f01 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #fd8200 0%,#e76f01 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #fd8200 0%,#e76f01 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #fd8200 0%,#e76f01 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd8200', endColorstr='#e76f01',GradientType=0 ); /* IE6-9 */
+  border: 1px solid #000;
+
+  margin-top: 3%;
+  width: 100%;
+  height: 0;
+  padding-bottom: 11%;
+  float: left;
+  position: relative;
+}
+
+.red {
+  position: relative;
+  background: #fc3a1b;
+  width: 14%;
+  height: 0;
+  padding-bottom: 14%;
+  float: left;
+  margin-right: 1.5%;
+  margin-top: 1%;
+}
+
+.blue {
+  position: relative;
+  background: #04b6f0;
+  width: 69%;
+  height: 0;
+  padding-bottom: 13%;
+  float: left;
+  margin-top: 2%;
+  z-index: 0;
+
+}
+
+.black {
+  position: relative;
+  background: #000000;
+  width: 14%;
+  height: 0;
+  padding-bottom: 14%;
+  float: right;
+  margin-left: 1.5%;
+  margin-top: 1%;
+}
+
+.purple {
+  position: relative;
+  background: #6908cc;
+  width: 14%;
+  height: 0;
+  padding-bottom: 44%;
+  float: left;
+  z-index: -1;
+  margin-top: -14%;
+  margin-left: 30.1%;
+}
+
+.green {
+  position: relative;
+  background: #10ad00;
+  width: 91%;
+  height: 0;
+  float: left;
+  padding-bottom: 14%;
+  margin-top: -29%;
+  margin-left: 4.5%;
+  z-index: -2;
+}
+
+.yellow {
+  position: relative;
+  background: #eddf02;
+  border: 1px solid #000000;
+  width: 100%;
+  height: 0;
+  padding-bottom: 11%;
+  margin-top: -14%;
+  float: left;
+}
+
+.gray {
+  position: relative;
+  background: #828282;
+  width: 19%;
+  height: 0;
+  float: left;
+  margin-left: 10%;
+  padding-bottom: 14%;
+  margin-top: -2%;
+}
+
+.maroon {
+  position: relative;
+  background: #e1039a;
+  width: 55%;
+  height: 0;
+  float: right;
+  padding-bottom: 14%;
+  margin-top: -2%;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0;
+
+  -webkit-animation-delay: 3s;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-name: overlayappear;
+
+  -moz-animation-delay: 3s;
+  -moz-animation-duration: 6s;
+  -moz-animation-name: overlayappear;
+}
+
+.textbox {
+  position: fixed;
+  margin-top: 15%;
+  left: 50%;
+  width: 50%;
+  max-width: 450px;
+  -webkit-transform: translate(-50%, -0%);
+     -moz-transform: translate(-50%, -0%);
+       -o-transform: translate(-50%, -0%);
+      -ms-transform: translate(-50%, -0%);
+          transform: translate(-50%, -0%);
+
+  opacity: 0;
+  z-index: 10;
+  padding: 10px;
+  background: #ffffff;
+
+  -webkit-animation-delay: 3s;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-name: rightslide;
+
+  -moz-animation-delay: 3s;
+  -moz-animation-duration: 6s;
+  -moz-animation-name: rightslide;
+
+
+}
+
+@media screen and (min-width: 320px) {
+  h1 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 620px) {
+  h1 {
+    font-size: 19px;
+  }
+  p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .textbox {
+    margin-top: 140px;
+  }
+}
+
+@-moz-keyframes overlayappear {
+  0% {
+    opacity: 0.5;
+  } 10% {
+    opacity: 0.5;
+  } 99% {
+    opacity: 0.5;
+  } 100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes overlayappear {
+  0% {
+    opacity: 0.5;
+  } 10% {
+    opacity: 0.5;
+  } 99% {
+    opacity: 0.5;
+  } 100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes rightslide {
+  0% {
+    margin-left: 100%;
+    opacity: 100;
+  } 20% {
+    margin-left: 0%;
+    opacity: 100;
+  } 99% {
+    opacity: 100;
+  } 100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes rightslide {
+  0% {
+    margin-left: 100%;
+    opacity: 100;
+  } 20% {
+    margin-left: 0%;
+    opacity: 100;
+  } 99% {
+    opacity: 100;
+  } 100% {
+    opacity: 0;
+  }
+}
