@@ -1,6 +1,7 @@
 # Dominion Enterprise Challenge
 A skill challenge that Dominion Enterprises gave me for me to do for a chance at an internship.
-*Live site [here](http://www.rcodonnell.com/DominionChallenge/).*
+
+**Live site [here](http://www.rcodonnell.com/DominionChallenge/).**
 
 ##  Languages Used
  * HTML5
