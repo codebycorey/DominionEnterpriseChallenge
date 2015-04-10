@@ -6,7 +6,7 @@ A skill challenge that Dominion Enterprises gave me for me to do for a chance at
  * CSS3
  * Javascript
 
-**Valid HTML5 using [W3 validator](validator.w3.org).
+**Valid HTML5 using [W3 validator](validator.w3.org).**
 
 ## Task Manager
 This requires Grunt v0.4.5
