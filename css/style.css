@@ -179,9 +179,18 @@ p {
 
 }
 
+h1 {
+  font-size: 9px;
+}
+p {
+  font-size: 4px;
+}
+
+
+
 @media screen and (min-width: 320px) {
   h1 {
-    font-size: 14px;
+    font-size: 13px;
   }
   p {
     font-size: 8px;

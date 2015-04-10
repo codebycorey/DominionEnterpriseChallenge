@@ -1,0 +1,26 @@
+{
+  "name": "DominionEnterpriseChallenge",
+  "version": "1.0.0",
+  "description": "A skill challenge the Dominion Enterprises gave me for an internship",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rcodonnell/DominionEnterpriseChallenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcodonnell/DominionEnterpriseChallenge/issues"
+  },
+  "homepage": "https://github.com/rcodonnell/DominionEnterpriseChallenge",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
